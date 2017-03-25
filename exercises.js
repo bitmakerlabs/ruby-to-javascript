@@ -85,3 +85,6 @@ helloWorld();
 function add(firstNum, secondNum) {
   return first_num + second_num;
 }
+
+var amount = add(5, 7);
+console.log(amount);
