@@ -85,18 +85,6 @@ amount = add(5, 7)
 puts amount
 ```
 
-```ruby
-
-```
-
-```ruby
-
-```
-
-```ruby
-
-```
-
 
 ## Convert a Working Program
 
