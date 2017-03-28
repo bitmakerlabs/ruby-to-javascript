@@ -29,22 +29,22 @@ if (num > 10) {
 
 
 
-for (var i=0; i < 10; i++) {
+for (var i = 0; i < 10; i++) {
   console.log("Doing the same thing over and over.");
 }
 
 var base = 5;
-for (var num=0; num < 20; num++) {
+for (var num = 0; num < 20; num++) {
   console.log(num + base);
 }
 
 var total = 0;
-for (var num=0; num < 100; num++) {
+for (var num = 0; num < 100; num++) {
   total += num;
 }
 console.log(total);
 
-for (var height=3; height < 16; height++) {
+for (var height = 3; height < 16; height++) {
   if (height > 9) {
     console.log("You can get on the rollercoaster!");
   } else {
@@ -56,7 +56,7 @@ for (var height=3; height < 16; height++) {
 
 
 var containers = ['purse', 'wallet', 'backback'];
-for (var i=0; i < containers.length; i++) {
+for (var i = 0; i < containers.length; i++) {
   console.log(containers[i]);
 }
 
