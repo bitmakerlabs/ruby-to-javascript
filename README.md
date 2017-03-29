@@ -89,3 +89,6 @@ puts amount
 ## Convert a Working Program
 
 Open the file `autopilot.rb` and run it. Then make a new file called `autopilot.js` and attempt to reproduce it in JavaScript.
+
+> #### Hint
+Make sure to run and test your file as you go! You do *not* want to write the entire file and hope for the best. Remember that you can run `node` in your terminal, much like `irb`. Work on one function at a time. You want to be confident that the function is working before you move on.
