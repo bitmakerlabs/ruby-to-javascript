@@ -1,7 +1,5 @@
 
-var cars = [];
-var cities = ['Toronto', 'Missisauga', 'London'];
-var distance = 50;
+
 
 function getNewCar() {
   return {
@@ -11,7 +9,7 @@ function getNewCar() {
   };
 }
 
-function addCar(newCar) {
+function addCar(cars, newCar) {
   cars.push(newCar);
 }
 
@@ -68,7 +66,7 @@ function act(car) {
   }
 }
 
-function commandFleet() {
+function commandFleet(cars) {
   for (var i=0; i < cars.length; i++) {
     var car = cars[i];
     var action = act(car);
@@ -77,12 +75,16 @@ function commandFleet() {
   console.log('---');
 }
 
-function addOneCarPerDay(numDays) {
+function addOneCarPerDay(cars, numDays) {
   for (var i=0; i < numDays; i++) {
     var newCar = getNewCar();
-    addCar(newCar);
-    commandFleet();
+    addCar(cars, newCar);
+    commandFleet(cars);
   }
 }
 
-addOneCarPerDay(10);
+var cities = ['Toronto', 'Missisauga', 'London'];
+var distance = 50;
+var cars = [];
+
+addOneCarPerDay(cars, 10);
