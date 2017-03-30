@@ -20,8 +20,8 @@ end
 
 def get_destination(car)
   if car[:city] == 'Toronto'
-    'Missisauga'
-  elsif car[:city] == 'Missisauga'
+    'Mississauga'
+  elsif car[:city] == 'Mississauga'
     'London'
   elsif car[:city] == 'London'
     'Toronto'
